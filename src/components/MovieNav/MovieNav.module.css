@@ -1,0 +1,28 @@
+.nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 3px solid #949393;
+  border-bottom: 3px solid #949393;
+}
+
+.list {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+.link {
+  color: blue;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.link:hover,
+.link:focus {
+  color: rgb(235, 28, 62);
+}
+
+.activeLink {
+  color: rgb(235, 28, 62);
+  font-size: 20px;
+  font-weight: 500;
+}

@@ -1,0 +1,10 @@
+.list {
+  list-style-type: circle;
+  margin-left: 50px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+
+.link {
+  color: blue;
+}

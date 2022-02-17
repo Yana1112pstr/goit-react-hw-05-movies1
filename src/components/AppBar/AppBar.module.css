@@ -1,0 +1,28 @@
+.header {
+  margin: 10px;
+}
+
+.list {
+  display: inline-flex;
+}
+
+.item {
+  padding: 10px;
+}
+
+.link {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.link:hover,
+.link:focus {
+  color: rgb(235, 28, 62);
+}
+
+.activeLink {
+  color: rgb(235, 28, 62);
+  font-size: 20px;
+  font-weight: 500;
+}

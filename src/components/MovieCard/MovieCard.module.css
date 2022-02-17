@@ -1,0 +1,36 @@
+.movieCard {
+  display: inline-flex;
+  padding: 10px;
+}
+
+.imgBox {
+  margin: 10px;
+}
+
+.image {
+  width: 400px;
+  height: 100%;
+}
+
+.infoBox {
+  margin: 10px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.userScore {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.smallTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
