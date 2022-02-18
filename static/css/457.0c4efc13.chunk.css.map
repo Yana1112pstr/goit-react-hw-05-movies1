@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/457.0c4efc13.chunk.css","mappings":"AAAA,uBACE,cAAe,CACf,eACF,CAEA,wBACE,iBACF","sources":["components/Reviews/Reviews.module.css"],"sourcesContent":[".author {\n  font-size: 20px;\n  font-weight: 600;\n}\n\n.content {\n  padding-left: 10px;\n}\n"],"names":[],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/541.a8cd1470.chunk.css","mappings":"AAAA,yBACE,yBACF,CAEA,uBACE,gCAAoC,CACpC,cACF","sources":["pages/HomePage/HomePage.module.css"],"sourcesContent":[".section {\n  border-top: 5px solid grey;\n}\n\n.title {\n  font-family: \"Quicksand\", sans-serif;\n  font-size: 50px;\n}\n"],"names":[],"sourceRoot":""}
