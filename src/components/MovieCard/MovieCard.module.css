@@ -9,7 +9,7 @@
 
 .image {
   width: 400px;
-  height: 100%;
+  height: auto;
 }
 
 .infoBox {

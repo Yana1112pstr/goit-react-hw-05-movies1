@@ -1,4 +1,3 @@
-import React from 'react';
 import { Routes, Route, useParams } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 import { useState, useEffect } from 'react';
@@ -13,23 +12,22 @@ const Reviews = lazy(() => import('../../components/Reviews/Reviews'));
 
 function MoviesDetailsPage() {
   const [movie, setMovie] = useState(null);
-  const { movieID } = useParams();
+  const movieID = useParams();
+  const id = Object.values(movieID);
 
   useEffect(() => {
-    fetchMoviesByID(movieID).then(setMovie);
-  }, [movieID]);
-
-  console.log(movieID);
+    fetchMoviesByID(id).then(setMovie);
+  }, [id]);
 
   return (
     <div className={s.container}>
       <ButtonGoBack />
-      <Suspense fallback={<p>Loading...</p>}>
+      <Suspense fallback={<div>Loading...</div>}>
         {movie && <MovieCard movie={movie} />}
         <MovieNav />
         <Routes>
-          <Route path="cast" element={<Cast movieID={movieID} />} />
-          <Route path="reviews" element={<Reviews movieID={movieID} />} />
+          <Route path="cast" element={<Cast movieID={id} />} />
+          <Route path="reviews" element={<Reviews movieID={id} />} />
         </Routes>
       </Suspense>
     </div>

@@ -18,8 +18,8 @@ export function fetchSearchMovies(searchQuery) {
   return fetchData(`${BASE_URL}/search/movie${APIkey}&query=${searchQuery}`);
 }
 
-export function fetchMoviesByID(movieID) {
-  return fetchData(`${BASE_URL}/movie/${movieID}${APIkey}`);
+export function fetchMoviesByID(id) {
+  return fetchData(`${BASE_URL}/movie/${id}${APIkey}`);
 }
 
 export function fetchMovieCast(movieID) {
