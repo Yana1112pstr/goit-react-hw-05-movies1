@@ -1,6 +1,6 @@
-import { toast } from "react-toastify";
-const APIkey = "?api_key=0acbef793912116e8168b05c9b24e1e7";
-const BASE_URL = "https://api.themoviedb.org/3";
+import { toast } from 'react-toastify';
+const APIkey = '?api_key=0acbef793912116e8168b05c9b24e1e7';
+const BASE_URL = 'https://api.themoviedb.org/3';
 
 async function fetchData(url) {
   const res = await fetch(url);
